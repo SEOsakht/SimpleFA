@@ -1,5 +1,5 @@
 {
-    "name": "Simple",
+    "name": "SimpleFA",
     "version": "2.0.4.0",
     "author": "TidyCustoms <https://tidycustoms.net/>",
     "menus": {
@@ -71,7 +71,7 @@
         {
             "name": "frontSource",
             "label": "Front page displays",
-            "group": "Layout",            
+            "group": "Layout",
             "value": "default",
             "type": "radio",
             "options": [
@@ -84,14 +84,14 @@
                     "value": "post"
                 }
             ]
-        },  
+        },
         {
             "name": "frontPost",
             "label": "Posts",
             "group": "Layout",
             "note": "We strongly recommended 'hide' and 'noindex' the selected post to avoid the duplicate content issue.",
             "value": "",
-            "type": "posts-dropdown", 
+            "type": "posts-dropdown",
             "dependencies": [
             {
                 "field": "frontSource",
@@ -104,7 +104,7 @@
             "label": "",
             "note": "Enable if you want to display a post with image gallery",
             "value": false,
-            "type": "checkbox", 
+            "type": "checkbox",
             "dependencies": [
             {
                 "field": "frontSource",
@@ -267,14 +267,14 @@
             "label": "Logo",
             "group": "Navbar",
             "size": "small"
-        },        
+        },
         {
             "name": "logoColor",
             "label": "Color",
             "group": "Navbar",
             "value": "#FFFFFF",
             "type": "colorpicker"
-        },        
+        },
         {
             "name": "separator",
             "type": "separator",
@@ -344,7 +344,7 @@
                 "field": "submenu",
                 "value": "custom"
             }]
-        },       
+        },
         {
             "name": "submenuBg",
             "label": "Background",
@@ -373,7 +373,7 @@
             "value": "rgba(255, 255, 255, 0.05)",
             "type": "colorpicker"
         },
-        
+
         {
             "name": "separator",
             "type": "separator",
@@ -405,7 +405,7 @@
             "value": true,
             "type": "checkbox"
         },
-        
+
         {
             "name": "heightHero",
             "label": "Height",
@@ -413,7 +413,7 @@
             "note": "Use of VH units recommended; for full-screen set to 100vh",
             "value": "80vh",
             "type": "text"
-        },        
+        },
         {
             "name": "separator",
             "type": "separator",
@@ -490,7 +490,7 @@
             "group": "Hero section",
             "value": "#17181E",
             "type": "colorpicker"
-        },  
+        },
         {
             "name": "heroOverlay",
             "label": "Overlay",
@@ -508,7 +508,7 @@
                     "value": "gradient"
                 }
             ]
-        },        
+        },
         {
             "name": "heroOverlayColor",
             "label": "",
@@ -610,14 +610,14 @@
             "group": "Colors",
             "value": "#D73A42",
             "type": "colorpicker"
-        },        
+        },
         {
             "name": "separator",
             "type": "separator",
             "label": "",
             "group": "Colors",
             "size": "small"
-        },       
+        },
         {
             "name": "headingColor",
             "label": "Headings color",
@@ -652,7 +652,7 @@
             "group": "Colors",
             "value": "#17181E",
             "type": "colorpicker"
-        }, 
+        },
         {
             "name": "separator",
             "type": "separator",
@@ -674,14 +674,14 @@
             "value": "#FFFFFF",
             "type": "colorpicker"
         },
-    
+
         {
             "name": "separator",
             "type": "separator",
             "label": "Main font settings",
             "group": "Fonts",
             "size": "small"
-        },        
+        },
         {
             "name": "fontFamily",
             "label": "Font family",
@@ -756,18 +756,18 @@
             "min": 1,
             "max": 3,
             "step": 0.05
-        },  
+        },
         {
             "name": "separator",
             "type": "separator",
             "label": "Headings",
             "group": "Fonts",
             "size": "big"
-        },        
+        },
         {
             "name": "fontH1Transform",
             "label": "H1-H6 text transform",
-            "group": "Fonts",            
+            "group": "Fonts",
             "value": "none",
             "type": "select",
             "options": [
@@ -898,7 +898,7 @@
             "label": "\"Back to top\" button",
             "value": true,
             "type": "checkbox"
-        },  
+        },
          {
             "name": "separator",
             "type": "separator",
@@ -1018,28 +1018,28 @@
             "label": " ",
             "group": "Footer",
             "size": "small"
-        },        
+        },
         {
             "name": "footerBg",
             "label": "Background",
             "group": "Footer",
             "value": "#17181E",
             "type": "colorpicker"
-        }, 
+        },
         {
             "name": "footerTextColor",
             "label": "Text color",
             "group": "Footer",
             "value": "#747577",
             "type": "colorpicker"
-        }, 
+        },
         {
             "name": "footerLinkColor",
             "label": "Link color",
             "group": "Footer",
             "value": "#FFFFFF",
             "type": "colorpicker"
-        }, 
+        },
         {
             "name": "footerLinkHoverColor",
             "label": "Link hover color",
@@ -1391,7 +1391,7 @@
                     "value": 0
                 }
             ]
-        },       
+        },
         {
             "name": "displayLastUpdatedDate",
             "label": "Display last updated date",
@@ -1440,7 +1440,7 @@
                 }
             ]
         },
-        
+
         {
             "name": "displayAuthorBio",
             "label": "Display author bio",
@@ -1612,13 +1612,13 @@
                     }
                 }
             },
-            
+
             "galleryImages": {
                 "sizes": "",
                 "dimensions": {
                     "thumbnail": {
                          "width": 720,
-                         "height": "auto"                       
+                         "height": "auto"
                     }
                 }
             }
@@ -1634,7 +1634,7 @@
             "label": "Drop cap",
             "cssClasses": "dropcap",
             "selector": "p"
-        },        
+        },
         {
             "label": "Info",
             "cssClasses": "msg msg--info",
