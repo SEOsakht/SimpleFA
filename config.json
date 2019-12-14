@@ -1515,30 +1515,7 @@
             "contentImages": {
                 "sizes": "(max-width: 48em) 100vw, 768px",
                 "dimensions": {
-                    "xs": {
-                        "width": 300,
-                        "height": "auto"
-                    },
-                    "sm": {
-                        "width": 480,
-                        "height": "auto"
-                    },
-                    "md": {
-                        "width": 768,
-                        "height": "auto"
-                    },
-                    "lg": {
-                        "width": 1024,
-                        "height": "auto"
-                    },
-                    "xl": {
-                        "width": 1360,
-                        "height": "auto"
-                    },
-                    "2xl": {
-                        "width": 1600,
-                        "height": "auto"
-                    }
+
                 }
             },
 
@@ -1549,67 +1526,14 @@
                 },
 
                 "dimensions": {
-                    "xs": {
-                        "width": 300,
-                        "height": "auto",
-                        "group": "post,amp"
-                    },
-                    "sm": {
-                        "width": 480,
-                        "height": "auto",
-                        "group": "post,amp"
-                    },
-                    "md": {
-                        "width": 768,
-                        "height": "auto",
-                        "group": "post,amp"
-                    },
-                    "lg": {
-                        "width": 1024,
-                        "height": "auto",
-                        "group": "post"
-                    },
-                    "xl": {
-                        "width": 1360,
-                        "height": "auto",
-                        "group": "post"
-                    },
-                    "2xl": {
-                        "width": 1600,
-                        "height": "auto",
-                        "group": "post"
-                    }
+
                 }
             },
 
             "optionImages": {
                 "sizes": "(max-width: 1600px) 100vw, 1600px",
                 "dimensions": {
-                    "xs": {
-                        "width": 300,
-                        "height": 255,
-                        "crop": true
-                    },
-                    "sm": {
-                        "width": 480,
-                        "height": "auto"
-                    },
-                    "md": {
-                        "width": 768,
-                        "height": "auto"
-                    },
-                    "lg": {
-                        "width": 1024,
-                        "height": "auto"
-                    },
-                    "xl": {
-                        "width": 1360,
-                        "height": "auto"
-                    },
-                    "2xl": {
-                        "width": 1600,
-                        "height": "auto"
-                    }
+
                 }
             },
 
