@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ @website.language }}">
+<html lang="fa">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
             <title>{{@website.name}}</title>
         {{/if}}
         {{metaDescription}}
-        {{metaRobots}} 
+        {{metaRobots}}
         {{{publiiHead}}}
         {{canonicalLink}}
         {{ampLink}}
@@ -27,7 +27,7 @@
                 <link rel="next" href="{{@pagination.nextPageUrl }}">
             {{/if}}
         {{/if}}
-        {{> fonts}}  
+        {{> fonts}}
         <link rel="stylesheet" href="{{css "style.css" }}">
 		{{#is "post"}}
            {{#post}}
@@ -35,7 +35,7 @@
                  <link rel="stylesheet" href="{{css "photoswipe.css" }}">
               {{/if}}
            {{/post}}
-        {{/is}}	
+        {{/is}}
         {{#checkIf @config.custom.frontSource '==' "post" }}
            {{#checkIf @config.custom.frontGallery '==' true}}
               {{#is "index"}}
@@ -44,14 +44,14 @@
            {{/checkIf}}
         {{/checkIf}}
         {{jsonLD}}
-        {{#if @config.custom.lazyLoad}}            
+        {{#if @config.custom.lazyLoad}}
             <script src="{{js "ls.parent-fit.min.js"}}"></script>
-            <script async src="{{js "lazysizes.min.js"}}"></script>          
+            <script async src="{{js "lazysizes.min.js"}}"></script>
         {{/if}}
 		{{#is "post"}}
            {{#post}}
               {{#if hasGallery}}
-		            <style>				
+		            <style>
 		               {{#checkIf @config.custom.galleryLightboxStyle '==' "pswp--dark" }}
 				          .pswp--svg .pswp__button,
 				          .pswp--svg .pswp__button--arrow--left:before,
@@ -63,17 +63,17 @@
 				          .pswp--svg .pswp__button--arrow--left:before,
 				          .pswp--svg .pswp__button--arrow--right:before {
 					          background-image: url({{@website.assetsUrl}}/svg/gallery-icons-dark.svg);
-			              }		
+			              }
 		              {{/checkIf}}
-		            </style>		        
+		            </style>
               {{/if}}
            {{/post}}
         {{/is}}
-        
+
         {{#checkIf @config.custom.frontSource '==' "post"}}
           {{#checkIf @config.custom.frontGallery '==' true}}
             {{#is "index"}}
-               <style>	
+               <style>
 		            {{#checkIf @config.custom.galleryLightboxStyle '==' "pswp--dark" }}
 		                 .pswp--svg .pswp__button,
 		                 .pswp--svg .pswp__button--arrow--left:before,
@@ -85,12 +85,12 @@
 		                 .pswp--svg .pswp__button--arrow--left:before,
 		                 .pswp--svg .pswp__button--arrow--right:before {
 			                background-image: url({{@website.assetsUrl}}/svg/gallery-icons-dark.svg);
-		                 }		
+		                 }
 		            {{/checkIf}}
-               </style>	
-            {{/is}}	
+               </style>
+            {{/is}}
           {{/checkIf}}
-        {{/checkIf}} 		
+        {{/checkIf}}
         {{{@headCustomCode}}}
     </head>
     <body>
