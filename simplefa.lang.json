@@ -1,20 +1,20 @@
 {
     "partials": {
-        
+
         "disqus": {
             "noscript1": "Please enable JavaScript to view the",
             "noscript2": "comments powered by Disqus."
         },
-        
+
         "menu": {
-            "label": "Menu"
+            "label": "فهرست"
         },
-        
+
         "pagination": {
-            "prev": "Previous",
-            "next": "Next"
+            "prev": "قبلی",
+            "next": "بعدی"
         },
-        
+
         "shareButtons": {
             "shareWithFacebook": "Facebook",
             "shareWithTwitter": "Twitter",
@@ -25,35 +25,35 @@
             "shareWithBuffer": "Buffer",
             "shareWithWhatsApp": "WhatsApp"
         },
-        
+
         "footer": {
-            "backToTop": "Back to top"
+            "backToTop": "بالا"
         }
     },
-    
+
     "post": {
-        "publishedBy": "By",
-        "relatedPosts": "You should also read:",
-        "readMore": "Continue reading...",
+        "publishedBy": "از",
+        "relatedPosts": "مطالب مرتبط:",
+        "readMore": "ادامه…",
         "lastUpdatedDate": "This article was updated on",
-        "comments": "Comments",
-        "previousPost": "Previous",
-        "nextPost": "Next"
+        "comments": "نظرات",
+        "previousPost": "قبلی",
+        "nextPost": "بعدی"
     },
-    
+
     "error": {
-        "404": "404",
-        "message-1": "Page not found",
-        "message-2": "The page you were looking for appears to have been moved, deleted or does not exist. You could go back to where you were or head straight to our home page.",
-        "button": "Go home"
+        "404": "۴۰۴",
+        "message-1": "پیدا نشد",
+        "message-2": "صفحهٔ مورد نظر شما پیدا نشد. می‌توانید از صفحهٔ نخست شروع کنید.",
+        "button": "خانه"
 
     },
-    
+
     "search": {
-        "placeholder": "search...",
-        "search": "Search",
-        "close": "Close",
-        "title": "Search",
-        "submit": "Submit"
+        "placeholder": "جستجو…",
+        "search": "جستجو",
+        "close": "بستن",
+        "title": "جستجو",
+        "submit": "بجو"
     }
 }
